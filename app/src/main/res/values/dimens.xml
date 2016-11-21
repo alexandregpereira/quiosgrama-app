@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <bool name="is_tablet">false</bool>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="category_button_margin">5dp</dimen>
+    <dimen name="category_button_padding_top">75dp</dimen>
+
+    <dimen name="scroll">50dp</dimen>
+    <dimen name="scroll_max">200dp</dimen>
+
+    <dimen name="item_product_padding">15dp</dimen>
+    <dimen name="item_product_padding_top">10dp</dimen>
+
+    <dimen name="btn_map_padding">8dp</dimen>
+    <dimen name="default_layout_margin">10dp</dimen>
+    <dimen name="shape_default_radius">11dp</dimen>
+
+    <dimen name="status_icon_height">12dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="search_table_map_width">240dp</dimen>
+
+    <dimen name="icon_amount_height">30dp</dimen>
+    <dimen name="icon_amount_width">30dp</dimen>
+    <dimen name="icon_drawable_margin">20dp</dimen>
+
+    <dimen name="img_product_type_size">40dp</dimen>
+    <dimen name="img_product_type_padding">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

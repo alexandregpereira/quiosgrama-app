@@ -1,0 +1,67 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/action_map">
+    
+	    <EditTextPreference 
+	        android:key="@string/preference_map_x_key"
+	        android:title="@string/preference_map_x"
+	        android:digits="-0123456789"
+	        android:inputType="numberSigned"
+	        android:defaultValue="@string/preference_map_x_default"/>
+	    
+	    <EditTextPreference 
+	        android:key="@string/preference_map_y_key"
+	        android:title="@string/preference_map_y"
+	        android:digits="-0123456789"
+	        android:inputType="numberSigned"
+	        android:defaultValue="@string/preference_map_y_default"/>
+	    
+	    <EditTextPreference 
+	        android:key="@string/preference_map_margin_right_key"
+	        android:title="@string/preference_map_margin_right"
+	        android:digits="-0123456789"
+	        android:inputType="numberSigned"
+	        android:defaultValue="@string/preference_map_margin_right_default"/>
+	    
+	    <EditTextPreference 
+	        android:key="@string/preference_map_margin_left_key"
+	        android:title="@string/preference_map_margin_left"
+	        android:digits="-0123456789"
+	        android:inputType="numberSigned"
+	        android:defaultValue="@string/preference_map_margin_left_default"/>
+    
+    </PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/preference_sat_title">
+
+		<EditTextPreference
+			android:key="@string/preference_sat_serial_number_key"
+			android:inputType="number"
+			android:title="@string/preference_sat_serial_number"/>
+
+	</PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/preference_server_title">
+
+	    <EditTextPreference
+	        android:key="@string/preference_host_key"
+	        android:title="@string/preference_host"
+	        android:defaultValue="@string/preference_host_default"/>
+	    
+	    <EditTextPreference 
+	        android:key="@string/preference_port_key"
+	        android:title="@string/preference_port"
+	        android:inputType="number"
+	        android:defaultValue="@string/preference_port_default"/>
+
+		<EditTextPreference
+			android:key="@string/preference_printer_ip_key"
+			android:title="@string/preference_printer_ip"
+			android:defaultValue="@string/preference_printer_ip_default"/>
+
+    </PreferenceCategory>
+    
+</PreferenceScreen>

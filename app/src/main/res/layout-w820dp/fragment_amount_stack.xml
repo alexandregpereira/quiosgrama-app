@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_layout_margin"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_layout_margin"
+                    android:layout_marginEnd="@dimen/default_layout_margin"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/total"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_total_size"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/default_layout_margin"
+                    android:layout_marginEnd="@dimen/default_layout_margin"
+                    android:layout_marginLeft="@dimen/default_layout_margin"
+                    android:layout_marginStart="@dimen/default_layout_margin"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtTotalPaidLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/total_receive"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTotalPaid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_total_size"
+                        android:textColor="@color/red"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/txtTotalLeftLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_layout_margin"
+                    android:layout_marginStart="@dimen/default_layout_margin"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtTotalLeftLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/total_left"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtTotalLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_total_size"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginTop="@dimen/default_layout_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:text="@string/real_coin"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/edtValue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:nextFocusUp="@id/edtValue"
+                    android:nextFocusLeft="@id/edtValue"
+                    android:hint="@string/value"
+                    android:inputType="numberDecimal"/>
+
+                <Button
+                    android:id="@+id/btnTotal"
+                    style="@style/Button"
+                    android:background="@drawable/selector_btn_confirm"
+                    android:text="@string/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnAddAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_add_white"
+                    android:background="@drawable/selector_btn_add_product"
+                    android:contentDescription="@string/app_name" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_layout_margin"
+                android:layout_marginBottom="@dimen/default_layout_margin"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/chkMoneyOption"
+                    style="@style/OptionLeft"
+                    android:layout_weight="1"
+                    android:text="@string/money"
+                    android:layout_width="0dp"
+                    android:checked="true"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/chkCardOption"
+                    style="@style/OptionRight"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="@string/card"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edtDiscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/discount"
+                android:inputType="numberDecimal"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/default_layout_margin"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/default_layout_margin"
+                    android:layout_marginRight="@dimen/default_layout_margin"
+                    android:text="@string/coupon_issue"
+                    android:id="@+id/chkCouponIssue" />
+
+                <TextView
+                    android:id="@+id/txtSatDisconnect"
+                    android:text="@string/sat_disconnect"
+                    android:visibility="invisible"
+                    android:textColor="@color/red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtCpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:hint="@string/cpf"
+                android:inputType="number"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_layout_margin"
+                android:text="@string/service_paid"
+                android:id="@+id/chkServiceOption"
+                android:checked="true" />
+
+            <LinearLayout
+                android:id="@+id/linAmount"
+                android:layout_marginTop="@dimen/default_layout_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnConfirmPayment"
+                style="@style/Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@drawable/selector_btn_confirm"
+                android:text="@string/confirm_payment" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

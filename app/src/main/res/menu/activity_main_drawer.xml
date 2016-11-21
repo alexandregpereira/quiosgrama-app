@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_menu_category"
+            android:title="@string/category" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu_menu"
+            android:title="@string/menu" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/action_map" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_menu_request"
+            android:title="@string/request" />
+        <item
+            android:id="@+id/nav_request_client"
+            android:icon="@drawable/ic_action_map"
+            android:visible="false"
+            android:title="@string/request" />
+        <item
+            android:id="@+id/nav_zombie"
+            android:icon="@drawable/ic_menu_zombie"
+            android:title="@string/zombie" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_file_chart"
+            android:visible="false"
+            android:title="@string/report" />
+        <item
+            android:id="@+id/nav_sat_test"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/action_sat_test" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/action_settings" />
+    </group>
+
+</menu>

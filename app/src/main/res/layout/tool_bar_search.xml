@@ -1,0 +1,37 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tool_bar_search"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimaryDark"
+    app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+    app:theme="@style/ToolbarSearch"
+    android:minHeight="?attr/actionBarSize" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:padding="5dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/edtSearchProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/default_layout_margin"
+            android:layout_marginEnd="@dimen/default_layout_margin"/>
+
+        <Button
+            android:id="@+id/btnClearSearch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_close" />
+
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infoFragmentParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/tableOptionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_layout_margin"
+        android:layout_marginRight="@dimen/default_layout_margin"
+        android:layout_marginLeft="@dimen/default_layout_margin"
+        android:paddingLeft="@dimen/default_layout_margin"
+        android:paddingRight="@dimen/default_layout_margin"
+        android:background="@drawable/shape">
+        
+        <RadioGroup
+            android:id="@+id/radTableOptions"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+            
+            <RadioButton
+                android:id="@+id/chkClient"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/table_request" />
+            
+            <RadioButton
+	            android:id="@+id/chkTable"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginStart="10dp"
+	            android:text="@string/new_table" />
+        
+        	<RadioButton
+	            android:id="@+id/chkTempClient"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginStart="10dp"
+	            android:text="@string/client_temp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edtTable"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/table_request"
+            android:layout_below="@id/radTableOptions"
+            android:inputType="number"
+            android:visibility="gone"
+            android:maxLength="3" />
+        
+        <Spinner
+            android:id="@+id/spnClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radTableOptions"
+            />
+        
+        <EditText
+            android:id="@+id/edtTempClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radTableOptions"
+            android:layout_toRightOf="@id/edtTable"
+            android:layout_toEndOf="@id/edtTable"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:hint="@string/client"
+            android:visibility="gone"
+            android:inputType="text" />
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listViewProduct"
+        style="@style/ProductList"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_layout_margin"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

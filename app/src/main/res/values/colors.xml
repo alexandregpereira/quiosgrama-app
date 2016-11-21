@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ff0000</color>
+    <color name="dark_red">#730000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="yellow_orange">#fdd600</color>
+    <color name="green">#00cc00</color>
+    <color name="dark_green">#005900</color>
+    <color name="blue_marinho">@color/colorPrimary</color>
+    <color name="dark_blue_marinho">#002d44</color>
+    <color name="brown">#66351C</color>
+    <color name="text_disable">#ffb7b7</color>
+    <color name="text_less_focus">#99000000</color>
+
+    <color name="colorPrimary">#66351C</color>
+    <color name="colorPrimaryDark">#3E2723</color> <!-- menu notification -->
+    <color name="windowBackground">#F3E8D5</color>
+    <color name="accent">#00cc00</color>
+    <color name="colorPrimaryTransparency">#AA66351C</color>
+</resources>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Quiosgrama="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_search"
+        android:visible="true"
+        Quiosgrama:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_cancel"
+        android:icon="@drawable/ic_cancel"
+        android:title="@string/action_cancel"
+        android:visible="false"
+        Quiosgrama:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/action_finish"
+        android:icon="@drawable/ic_finish"
+        android:title="@string/action_finish"
+        android:visible="false"
+        Quiosgrama:showAsAction="always"/>
+
+</menu>
