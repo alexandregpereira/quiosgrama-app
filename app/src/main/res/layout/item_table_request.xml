@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/txtWaiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/txtDate"
+        android:layout_toStartOf="@+id/txtDate"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:maxLines="1"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txtDate"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/txtRequestResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWaiter"
+        android:layout_toLeftOf="@id/imgStatus"
+        android:layout_toStartOf="@id/imgStatus"
+        android:layout_marginEnd="@dimen/default_layout_margin"
+        android:layout_marginRight="@dimen/default_layout_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:maxLines="1"
+        android:textSize="12sp" />
+
+</RelativeLayout>

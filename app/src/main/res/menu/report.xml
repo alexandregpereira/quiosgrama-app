@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Quiosgrama="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/action_print"
+        android:icon="@drawable/ic_printer_white_36dp"
+        android:title="@string/action_print"
+        android:visible="false"
+        Quiosgrama:showAsAction="always"/>
+    
+    
+</menu>

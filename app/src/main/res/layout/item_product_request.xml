@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/viewTypeColor"
+        android:background="@color/green"
+        android:layout_marginRight="@dimen/item_product_padding"
+        android:layout_marginEnd="@dimen/item_product_padding"
+        android:layout_width="@dimen/default_layout_margin"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgProductType"
+        android:layout_width="@dimen/img_product_type_size"
+        android:layout_height="@dimen/img_product_type_size"
+        android:layout_gravity="center"
+        android:padding="@dimen/img_product_type_padding"
+        android:background="@drawable/shape_circle"
+        android:layout_marginRight="@dimen/default_layout_margin"
+        android:layout_marginEnd="@dimen/default_layout_margin"
+        android:layout_marginLeft="@dimen/default_layout_margin"
+        android:layout_marginStart="@dimen/default_layout_margin"
+        android:src="@drawable/ic_action_map"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/item_product_padding"
+        android:paddingRight="@dimen/item_product_padding"
+        android:paddingTop="@dimen/item_product_padding_top" >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:singleLine="true"
+                android:text="@string/x"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtProduct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_less_focus" />
+
+            <TextView
+                android:id="@+id/txtComplementPrice"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_less_focus" />
+
+            <TextView
+                android:id="@+id/txtPriceTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnRemoveProductRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top"
+            android:background="@drawable/selector_btn_remove_product"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_remove"
+            android:onClick="onRemoveProductRequestListener" />
+
+        <ImageButton
+            android:id="@+id/btnAddProductRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toRightOf="@id/btnRemoveProductRequest"
+            android:layout_toEndOf="@id/btnRemoveProductRequest"
+            android:background="@drawable/selector_btn_add_product"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_add_white"
+            android:onClick="onAddProductRequestListener" />
+
+        <Button
+            android:id="@+id/btnAddComplement"
+            style="@style/LittleButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btnRemoveProductRequest"
+            android:layout_below="@id/top"
+            android:layout_toRightOf="@id/btnAddProductRequest"
+            android:layout_toEndOf="@id/btnAddProductRequest"
+            android:background="@drawable/selector_btn_save"
+            android:onClick="onAddComplementListener"
+            android:text="@string/c" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtCheckComplement"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/default_layout_margin"
+                android:layout_marginRight="@dimen/default_layout_margin"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtTransferRoute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

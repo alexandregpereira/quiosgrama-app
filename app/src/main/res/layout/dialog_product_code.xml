@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape" >
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_shape"
+        android:padding="10dp"
+        android:text="@string/add_product"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/editCodeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_layout_margin"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/top"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:id="@+id/txtCodeQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:singleLine="true"
+            android:text="@string/x"
+            android:textColor="@android:color/black" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edtProductCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="@string/code_or_product"
+            android:layout_weight="1"
+            android:inputType="text" />
+
+    </LinearLayout>
+    
+    <ImageButton
+        android:id="@+id/btnRemoveProdCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="@dimen/default_layout_margin"
+        android:layout_marginStart="@dimen/default_layout_margin"
+        android:layout_marginBottom="@dimen/default_layout_margin"
+        android:src="@drawable/ic_remove"
+        android:layout_below="@id/editCodeLayout"
+        android:background="@drawable/selector_btn_remove_product"
+        android:contentDescription="@string/app_name" />
+    
+    <ImageButton
+        android:id="@+id/btnAddComplement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_add_white"
+        android:layout_below="@id/editCodeLayout"
+        android:layout_toRightOf="@id/btnRemoveProdCode"
+        android:layout_toEndOf="@id/btnRemoveProdCode"
+        android:background="@drawable/selector_btn_add_product"
+        android:contentDescription="@string/app_name" />
+        
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_layout_margin"
+        android:layout_below="@id/btnRemoveProdCode"
+        android:background="@drawable/selector_btn_confirm"
+        android:text="@string/confirm" />
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Este Software, em parte ou em seu todo, é livre para uso e modificação exclusivamente para uso
+  ~ com o equipamento EASYS@T Kryptus.
+  ~ Este software é provido sem nenhuma forma de garantia implícita ou explicita e a Kryptus não se
+  ~ responsabiliza por possíveis danos diretos ou indiretos causados pelo mesmo.
+  ~ A violação dessa licença sujeita o usuário a indenização de quaisquer perdas e danos diretos e
+  ~ indiretos que venham a ser causados à Kryptus.
+  ~
+  ~ Todos os direitos reservados - Kryptus Segurança da Informação S/A
+  ~
+  ~ 10/05/2016
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <EditText
+            android:id="@+id/edtXml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:nextFocusUp="@id/edtXml"
+            android:nextFocusLeft="@id/edtXml"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnShowXml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar XML de teste" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpar" />
+
+        <Button
+            android:id="@+id/connect_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conectar" />
+
+        <Button
+            android:id="@+id/consultar_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar" />
+
+        <Button
+            android:id="@+id/status_operacional_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Operacional" />
+
+        <Button
+            android:id="@+id/ativar_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ativar" />
+
+        <Button
+            android:id="@+id/associar_assinatura_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Associar Assinatura"/>
+
+        <Button
+            android:id="@+id/enviar_dados_venda_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar Dados Venda" />
+
+        <Button
+            android:id="@+id/cancelar_ultima_venda_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar Última Venda"/>
+
+        <Button
+            android:id="@+id/test_fim_a_fim_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teste Fim a Fim" />
+
+        <Button
+            android:id="@+id/consultar_numero_sessao_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Número de Sessão" />
+
+        <Button
+            android:id="@+id/configurar_interface_de_rede_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configurar Interface de Rede"/>
+
+        <Button
+            android:id="@+id/trocar_codigo_de_ativacao_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trocar Código de Ativação" />
+
+        <Button
+            android:id="@+id/extrair_logs_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extrair Logs"/>
+
+        <Button
+            android:id="@+id/teste_de_stress_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teste de Stress"/>
+
+    </LinearLayout>
+</ScrollView>

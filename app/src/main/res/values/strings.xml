@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sender_id">385610328612</string>
+
+    <string name="authority">io.oxigen.quiosgrama</string>
+    <string name="app_name">Quiosgrama</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_sat_test">SAT Teste</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="action_map">Mapa</string>
+    <string name="action_finish">Finalizar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_cancel_map">Fechar Mapa</string>
+    <string name="action_previous">Anterior</string>
+    <string name="action_next">Próximo</string>
+    <string name="action_next_plus">Nova</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_print">Imprimir</string>
+    <string name="action_filter_remove">Remover Filtro</string>
+    <string name="action_category_filter">Filtrar Categorias</string>
+    <string name="action_search_table">Mesas</string>
+    <string name="action_sync">Sincronizar</string>
+    <string name="action_search_poi">POIs</string>
+    <string name="welcome">Bem vindo!</string>
+    <string name="loading">Carregando</string>
+    <string name="minutes">Minutos</string>
+    <string name="seconds">Segundos</string>
+    <string name="yesterday">Ontem</string>
+    <string name="hours">Horas</string>
+    <string name="dot">................................................................................................</string>
+    <string name="real_coin">R$</string>
+    <string name="x">x</string>
+    <string name="c">C</string>
+
+    <string name="send_request">Enviar Pedido</string>
+    <string name="send">Enviar</string>
+    <string name="forward">Transferir</string>
+    <string name="table_request">Mesa</string>
+    <string name="new_table">+ Mesa</string>
+    <string name="sub_total">Sub-Total</string>
+    <string name="service_total">Serviço</string>
+    <string name="total_receive">Recebido</string>
+    <string name="total_left">Faltando</string>
+    <string name="total_change">Troco</string>
+    <string name="total">Total</string>
+    <string name="all">Todos</string>
+    <string name="my_requests">Meus Pedidos</string>
+    <string name="sent">Enviados</string>
+    <string name="visualized">Visualizados</string>
+    <string name="ready">Prontos</string>
+    <string name="delivery">Entrega</string>
+    <string name="remove">Remover</string>
+    <string name="reset">Resetar Posição</string>
+    <string name="remove_service">Remover 10%</string>
+    <string name="no_value">Outro Valor</string>
+    <string name="value">Valor</string>
+    <string name="money">Dinheiro</string>
+    <string name="card">Cartão</string>
+    <string name="discount">Desconto</string>
+    <string name="cpf">CPF</string>
+    <string name="zombie_bill">Código da Mesa</string>
+
+    <string name="confirm">Confirmar</string>
+    <string name="confirm_close_table">Confirmar Encerramento</string>
+    <string name="confirm_payment">Confirmar Pagamento</string>
+    <string name="save">Guardar</string>
+    <string name="complement">Complemento</string>
+    <string name="close_table">Encerrar Conta</string>
+    <string name="add_product">Adicionar Produto</string>
+    <string name="code_or_product">Código ou Nome</string>
+    <string name="start_scanner">Iniciar Scanner</string>
+
+    <string name="main">Menu</string>
+    <string name="category">Categorias</string>
+    <string name="menu">Cardápio</string>
+    <string name="request">Pedidos</string>
+    <string name="zombie">Zombie</string>
+    <string name="report">Relatório</string>
+    <string name="poi">POI</string>
+    <string name="client">Cliente</string>
+    <string name="client_temp">+ Cliente</string>
+    <string name="admin">Admin</string>
+    <string name="waiter">Garçom</string>
+    <string name="product">Produto</string>
+    <string name="cod">Cod</string>
+    <string name="unit">Unid</string>
+
+    <string name="table_number_empty">Preencha o número da mesa</string>
+    <string name="confirm_alter_table_title">Mesa %d</string>
+    <string name="confirm_alter_table_message">Deseja mudar a mesa %d?</string>
+    <string name="confirm_reset_table_message">Deseja resetar a posição da mesa %d?</string>
+    <string name="confirm_alter_poi_message">Deseja mudar esse item?</string>
+    <string name="dialog_table_title">Mesa %d</string>
+    <string name="dialog_table_client_title">Mesa %s</string>
+    <string name="close_table_message">Deseja encerrar a conta da mesa %d?</string>
+    <string name="client_already_table">%s já esta nessa mesa!</string>
+    <string name="date_format">dd/MM/yyyy</string>
+
+    <string name="notification_bill">%d Fechamentos</string>
+    <string name="notification_request">%d Pedidos</string>
+
+    <string name="waiter_open_label">Aberta por: </string>
+    <string name="last_mod_label">Última mod.: </string>
+    <string name="waiter_close_label">Fechada por: </string>
+
+    <string name="sending_request_title">Pedido</string>
+    <string name="sending_table_title">Mesa</string>
+    <string name="sending_poi_title">POI</string>
+    <string name="sending_amount_title">Valores Pagos</string>
+    <string name="sending_request_message">Enviando Pedido...</string>
+    <string name="sending_table_message">Atualizando Mapa</string>
+    <string name="sending_bill_message">Enviando Bill</string>
+    <string name="sending_poi_message">Enviando POI</string>
+    <string name="sending_amount_message">Enviando Amounts</string>
+    <string name="request_sended_message">Pedido Enviado</string>
+    <string name="table_sended_message">Mapa atualizado</string>
+    <string name="bill_sended_message">Bill enviado</string>
+    <string name="poi_sended_message">POI Enviado</string>
+    <string name="amount_sended_message">Amount Enviado</string>
+    <string name="request_sended_error_message">Erro ao enviar o pedido</string>
+    <string name="table_sended_error_message">Erro ao atualizar o mapa</string>
+    <string name="bill_sended_error_message">Erro ao enviar a conta</string>
+    <string name="poi_sended_error_message">Erro ao enviar o POI</string>
+    <string name="amount_sended_error_message">Erro ao enviar os valores pagos</string>
+    <string name="sync_error_message">Falha ao conectar no servidor</string>
+    <string name="device_auth_error_message">Falha ao autenticar dispositivo</string>
+    <string name="device_register_error_message">Falha ao registrar o dispositivo</string>
+    <string name="gcm_insert_error">Erro ao receber dados do servidor, sincronize o app</string>
+    <string name="gcm_insert_success">GCM: Atualizado dados com sucesso</string>
+    <string name="authentication_failed_message">Dispositivo não cadastrado</string>
+    <string name="invalid_map_object_position">Posição inválida</string>
+    <string name="no_item_selected">Nenhum item selecionado</string>
+    <string name="service_paid">Taxa de serviço pago</string>
+    <string name="coupon_issue">Emitir cupom fiscal</string>
+    <string name="sat_connect">SAT conectado</string>
+    <string name="sat_disconnect">SAT desconectado</string>
+    <string name="sat_not_connected">SAT não esta conectado</string>
+
+    <string name="coupon_send_error_title">Erro ao emitir o cupom</string>
+    <string name="sat_not_connected_error_message">Verifique se o SAT esta conectado pelo USB</string>
+    <string name="sat_secure_copy">Não foi possível gravar uma cópia segura do SAT-CFe, entre em contato com o suporte do Quiosgrama</string>
+    <string name="sat_xml_create_error">Não foi possível criar o XML de venda, entre em contato com o suporte do Quiosgrama</string>
+    <string name="sat_get_products_error">Não foi possível pegar os produtos da conta para criação do XML de venda, entre em contato com o suporte do Quiosgrama se o erro persistir</string>
+    <string name="sat_unknown_error">Não foi possível recuperar o retorno do SAT, entre em contato com o suporte do Quiosgrama se o erro persistir</string>
+    <string name="sat_serial_number_error">Preencha o número serial do SAT na tela de configurações. O número serial se encontra embaixo do aparelho SAT</string>
+    <string name="sat_invalid_discount_error">Desconto inválido, verifique se o desconto é maior que o total</string>
+    <string name="sat_tax_not_found_error">O produto %s não possui os campos de impostos preenchidos, entre em contato com a equipe do Quiosgrama para o preenchimento</string>
+    <string name="sat_buffer_error">Erro ao ler o XML de venda, entre em contato com o suporte do Quiosgrama</string>
+    <string name="coupon_print_error_title">Erro ao imprimir o cupom</string>
+    <string name="coupon_print_error">Não foi possível imprimir o extrato do cupom, verifique a impressora.
+        \nOBS: O nota já foi enviada para o SAT</string>
+
+    <string name="get_object_container">Quioservice/sync/getObjectContainer</string>
+    <string name="get_product_request_print">Quioservice/sync/getProductRequestPrint</string>
+    <string name="send_product_request_url">Quioservice/sync/sendProductRequest</string>
+    <string name="send_registration_url">Quioservice/sync/sendRegistration</string>
+    <string name="send_table_url">Quioservice/sync/sendTable</string>
+    <string name="send_bill_url">Quioservice/sync/sendBill</string>
+    <string name="send_poi_url">Quioservice/sync/sendPoi</string>
+    <string name="send_amount_url">Quioservice/sync/sendAmount</string>
+    <string name="get_bill">Quioservice/sync/getBill</string>
+    <string name="get_report">Quioservice/sync/getReport</string>
+
+    <string name="bill_key">pref_bill</string>
+    <string name="preference_host_key">pref_ip_host</string>
+    <string name="preference_port_key">pref_porta</string>
+    <string name="preference_printer_ip_key">pref_printer_ip_key</string>
+    <string name="preference_map_x_key">pref_map_x</string>
+    <string name="preference_map_y_key">pref_map_y</string>
+    <string name="preference_map_margin_right_key">pref_map_margin_right</string>
+    <string name="preference_map_margin_left_key">pref_map_margin_left</string>
+    <string name="preference_sat_serial_number_key">pref_sat_sn</string>
+
+    <string name="preference_host">Ip do Host</string>
+    <string name="preference_host_default">192.168.1.2</string>
+    <string name="preference_port">Porta</string>
+    <string name="preference_port_default">9090</string>
+    <string name="preference_printer_ip">Impressora</string>
+    <string name="preference_printer_ip_default">192.168.1.3</string>
+    <string name="preference_server_title">Servidor</string>
+    <string name="preference_sat_title">SAT</string>
+    <string name="preference_sat_serial_number">Número de série (Embaixo do SAT)</string>
+
+    <string name="preference_map_x">Calibragem de X</string>
+    <string name="preference_map_x_default">50</string>
+    <string name="preference_map_y">Calibragem de Y</string>
+    <string name="preference_map_y_default">200</string>
+    <string name="preference_map_margin_right">Limite da Margem Direita</string>
+    <string name="preference_map_margin_right_default">280</string>
+    <string name="preference_map_margin_left">Limite da Margem Esquerda</string>
+    <string name="preference_map_margin_left_default">-2</string>
+    <string name="first_time_key">first_time_key</string>
+
+    <string name="functionary_zombie_description">Cadastre um dispositivo para o garçom a partir do QR Code abaixo</string>
+    <string name="client_zombie_description">Libere o aplicativo para um cliente a partir do QR Code abaixo</string>
+    <string name="bill_zombie_description">Libere a %s para um cliente a partir do QR Code abaixo</string>
+    <string name="new_client_zombie">Leia o QR Code disponibilizado pelo quiosque para poder liberar o aplicativo</string>
+    <string name="new_client_zombie_no_camera"> Ou\nMostre o QR Code abaixo para o garçom ou cliente que já possua a aplicação liberada</string>
+    <string name="reset_zombie">Ou \nReinicie o aplicativo a partir de outro QR Code</string>
+    <string name="zombie_no_connection">Houve algum erro ao se conectar ao Servidor, verifique sua conexão</string>
+    <string name="new_client_table_zombie">Leia o QR Code disponibilizado pelo garçom para poder liberar o aplicativo e a mesa</string>
+    <string name="qr_code_invalid">QR Code inválido</string>
+
+    <string name="no_google_play_services">Este dispositivo não possui o Google Play, algumas funcionalidades não irão funcionar</string>
+
+    <string name="title_err_code">Error Code</string>
+    <string name="title_err_method">Método</string>
+    <string name="title_msg_result">Resultado</string>
+    <string name="title_msg_description">Descrição</string>
+    <string name="handlingmsg_warn_receipt_near_end">Roll paper is nearly end.\n</string>
+    <string name="handlingmsg_warn_battery_near_end">Battery level of printer is low.\n</string>
+    <string name="handlingmsg_err_no_response">Please check the connection of the printer and the mobile terminal.\nConnection get lost.\n</string>
+    <string name="handlingmsg_err_cover_open">Please close roll paper cover.\n</string>
+    <string name="handlingmsg_err_receipt_end">Please check roll paper.\n</string>
+    <string name="handlingmsg_err_paper_feed">Please release a paper feed switch.\n</string>
+    <string name="handlingmsg_err_autocutter">Please remove jammed paper and close roll paper cover.\nRemove any jammed paper or foreign substances in the printer, and then turn the printer off and turn the printer on again.\n</string>
+    <string name="handlingmsg_err_need_recover">Then, If the printer doesn\'t recover from error, please cycle the power switch.\n</string>
+    <string name="handlingmsg_err_unrecover">Please cycle the power switch of the printer.\nIf same errors occurred even power cycled, the printer may out of order.</string>
+    <string name="handlingmsg_err_overheat">Please wait until error LED of the printer turns off. \n</string>
+    <string name="handlingmsg_err_head">Print head of printer is hot.\n</string>
+    <string name="handlingmsg_err_motor">Motor Driver IC of printer is hot.\n</string>
+    <string name="handlingmsg_err_battery">Battery of printer is hot.\n</string>
+    <string name="handlingmsg_err_wrong_paper">Please set correct roll paper.\n</string>
+    <string name="handlingmsg_err_battery_real_end">Please connect AC adapter or change the battery.\nBattery of printer is almost empty.\n</string>
+    <string name="handlingmsg_err_offline">Printer is offline.\n</string>
+
+    <string name="first_time_message">Olá, Parece que é a sua primeira vez aqui. Para poder usar o app no estabelecimeto que deseja, o mesmo precisará estar cadastrado no sistema.
+        Pergunte ao garçom se o estabelecimento em questão usa o Quiosgrama. Se sim, siga os passos abaixo para começar.\n\n
+        1 - Acesse o menu a esquerda e selecione a opção Zombie.\n
+        2 - Inicie o scanner e leia o QrCode do estabelecimento. Obs: Se tem dúvidas sobre o que é um QrCode ou não consegue encontrá-lo no estabelecimento, chame o garçom para que ele possa esclarecer.\n
+        3 - Pronto, o check-in esta feito.\n\n
+        Lembre-se, chame o garçom para qualquer dúvida ou problema. Ele poderá te ajudar.\n\n
+        Obrigado!
+    </string>
+
+    <string name="bill_receipt_message">Comprovante somente para consulta\n
+        Sem valor fiscal\n\n
+        Volte sempre!
+    </string>
+    <string name="title_activity_sat">SatActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
